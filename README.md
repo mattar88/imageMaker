@@ -68,7 +68,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
 
 ## Example 
 ````js
- $('#canvas-memes-2').imageMaker({
+ $('#imageMaker1').imageMaker({
          merge_images:[{url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/just_do_it.png', title:'Just Do it'},
                     {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/starbucks.png', title:'Starbucks'},
                     {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/kiss.png', title:'Kiss'},
@@ -80,7 +80,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
          {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/t-shirt-black.png', title:'T-shirt black'},
         ],
          merge_image_thumbnail_width:'auto',
-        merge_image_thumbnail__height:50,
+        merge_image_thumbnail_height:50,
         template_thumbnail_width:50,
         template_thumbnail_height:50,
         i18n:{fontFamilyText: 'Font Family',
