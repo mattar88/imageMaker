@@ -79,16 +79,16 @@ Just follow these simple steps in order to enable Image Maker to your app:
 ## Example 
 ````js
  $('#imageMaker1').imageMaker({
-         merge_images:[{url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/just_do_it.png', title:'Just Do it'},
-                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/starbucks.png', title:'Starbucks'},
-                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/kiss.png', title:'Kiss'},
-                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/donkey.png', title:'Donkey 1'},
-                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/donkey2.png', title:'Donkey 2'},
-          ],
-         templates:[
-          {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/t-shirt-white.png', title:'T-shirt White'},
-         {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/t-shirt-black.png', title:'T-shirt black'},
-        ],
+            merge_images:[{url: './assets/design/just_do_it.png', title:'Just Do it'},
+                        {url: './assets/design/starbucks.png', title:'Starbucks'},
+                        {url: './assets/design/kiss.png', title:'Kiss'},
+                        {url: './assets/design/donkey.png', title:'Donkey 1'},
+                        {url: './assets/design/donkey2.png', title:'Donkey 2'},
+            ],
+            templates:[
+            {url: './assets/design/t-shirt-white.png', title:'T-shirt White'},
+            {url: './assets/design/t-shirt-black.png', title:'T-shirt black'},],
+            text_boxes_count:0,
          merge_image_thumbnail_width:'auto',
         merge_image_thumbnail_height:50,
         template_thumbnail_width:50,
