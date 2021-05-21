@@ -44,11 +44,17 @@ Just follow these simple steps in order to enable Image Maker to your app:
     $('#imageMaker1').imageMaker()
     ```    
  # Settings
-| Option name | Description | type | Default |
+| Option name | Description | Type | Default |
 | :---         |     :---:      |     :---: |     ---: |
-| templates   | You can predefine images that used as template. So It's array of object that contains url and title of predefined templated   | [{url:'','title':''},]    |[] |
+| templates   | You can predefine images that used as template. 
+It's array of object that contains url and title of predefined templated   | [{url:'','title':''},]    |[] |
 | template_thumbnail_width     | Width of predefined template       |   integer   | 50 |
 | template_thumbnail_height     | Height of predefined template       |   integer   | 50 |
-| merge_images   | You can predefine images to merge with the template. so It's array of object that contains url and title of predefined merges Images   | [{url:'','title':''}]    | []|
+| merge_images   | You can predefine images to merge with the template. 
+It's array of object that contains url and title of predefined merges Images   | [{url:'','title':''}]    | []|
+| merge_image_thumbnail_width   | Width of predefined merge image   | Integer  | 'auto' |
+| merge_image_thumbnail_height   | Height of predefined merge image   | Integer  | 50 |
+| downloadGeneratedImage   | Maybe you need to send generate image to backend using ajax and you wont to download it so you have the ability to disabled download image by set this variable false  | bool  | true |
+
 
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
