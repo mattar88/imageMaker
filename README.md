@@ -26,7 +26,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
     ```
 
-2. Download imageMaker then add imageMaker.js and imageMaker.css then Include them after the dependend plugins above in 1.
+2. Download imageMaker then add imageMaker.js and imageMaker.css.
 
     ```html
     <script src="imageMake.js"></script>
