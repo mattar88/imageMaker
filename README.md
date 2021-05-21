@@ -103,7 +103,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
                 $.ajax({
                 type: "POST",
                 url: "YOURCALLBACK",
-                data: formDataMemeGeneratorData,
+                data: formData,
                 success: function (data) {},
                 complete: function() {}})
                 },
