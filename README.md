@@ -44,8 +44,8 @@ Just follow these simple steps in order to enable Image Maker to your app:
 2. Download imageMaker then add imageMaker.js and imageMaker.css.
 
     ```html
+    <link rel="stylesheet" href="imageMake.min.css">
     <script src="imageMaker.min.js"></script>
-    <link rel="stylesheet" href="imageMake.css">
     ```
 
 3. Add in the body of the page html the main element of Image Maker.
