@@ -11,6 +11,21 @@
 
 ## Screenshots
 
+<table>
+<thead>
+<tr>
+<th align="left">Birthday Cards</th>
+<th align="left">Clothes &amp; T-Shirt maker</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a target="_blank" rel="noopener noreferrer" href="/mattar88/imageMaker/blob/main/screenshots/birthday-cards.jpeg"><img src="/mattar88/imageMaker/raw/main/screenshots/birthday-cards.jpeg" width="250" style="max-width:100%;"></a></td>
+<td align="left"><a target="_blank" rel="noopener noreferrer" href="/mattar88/imageMaker/blob/main/screenshots/clothe-tshirt-maker.jpeg"><img src="/mattar88/imageMaker/raw/main/screenshots/clothe-tshirt-maker.jpeg" width="250" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>
+
 | Birthday Cards  | Clothes & T-Shirt maker |
 | :------------ | :------------- |
 | <img src="screenshots/birthday-cards.jpeg" width="250"> | <img src="screenshots/clothe-tshirt-maker.jpeg" width="250"> |
