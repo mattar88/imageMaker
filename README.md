@@ -21,7 +21,7 @@
 
 ## Example Usage
 
-## Using JQuery maker
+## Using JQuery Image Maker
 
 Just follow these simple steps in order to enable Image Maker to your app:
 
