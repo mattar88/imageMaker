@@ -7,7 +7,7 @@
 
 [https://www.tolastbit.com/apps/meme-generator](https://www.tolastbit.com/apps/meme-generator)
 
-## Depends libraries:
+## Dependent libraries:
  *  jquery
  *  jquery.ui
  *  jqueryui-touch-punch(optional for mobile)
