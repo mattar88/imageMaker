@@ -15,7 +15,7 @@
 
 | Birthday Cards      | Clothes & T-Shirt maker      |
 |------------|-------------|
-| <img src="screenshots/birthday-cards.jpeg" width="250"> | <img src="creenshots/clothe-tshirt-maker.jpeg" width="250"> |
+| <img src="screenshots/birthday-cards.jpeg" width="250"> | <img src="screenshots/clothe-tshirt-maker.jpeg" width="250"> |
 
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
