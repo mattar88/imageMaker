@@ -5,7 +5,7 @@
 
 ## Demo & Examples
 * [https://mattar88.github.io/imageMaker/demo](Clothes & T-Shirt maker)
-* [https://mattar88.github.io/imageMaker/demo](https://mattar88.github.io/imageMaker/demo)
+* [https://mattar88.github.io/imageMaker/demo](demo)
 
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
