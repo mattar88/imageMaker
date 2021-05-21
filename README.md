@@ -9,9 +9,10 @@
 
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
+ *  Unlimited imageMaker in the same page, you can define more than one Image maker in the same page.
  *  Translatable
  *  Have many operations: Resizable and draggable texts, merge image, upload template, predefined merge images and templates, Draw
- *  
+ 
 ## Dependent libraries:
  *  jquery
  *  jquery.ui
