@@ -53,7 +53,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
 | merge_images   | You can predefine images to merge with the template. It's array of object that contains url and title of predefined merges Images   | [{url:'','title':''}]    | []|
 | merge_image_thumbnail_width   | Width of predefined merge image   | Integer  | 'auto' |
 | merge_image_thumbnail_height   | Height of predefined merge image   | Integer  | 50 |
-| downloadGeneratedImage   | Maybe you need to send generated image to backend using ajax(or other technology) instead of download it so you have the ability to disabled download image by set this variable false and user the function onGenerate()  | bool  | true |
+| downloadGeneratedImage   | Maybe you need to send generated image to backend using ajax(or other technology) instead of download it so you have the ability to disabled download image by set this variable false and user the hook onGenerate()  | bool  | true |
 | i18n   | Allows you to alter all texts appears And therefore you can translate them  | json  | {fontFamilyText: 'Font Family', enterTextText:'Enter Text', topText:'Top Text',bottomText: 'Bottom Text', sizeText:'Size', uperCaseText:'UperCase', mergeImageText: 'Merge Image', drawText:'Draw', addTextBoxText:'Add TextBox', previewText:'Preview', addTemplateText:'add template', resetText: 'Reset', imageGeneratorText: 'Image maker',stopBrushingText:'Stop Brushing', canvasLoadingText: 'Canvas Loading'}|
               
  ## Hooks and Events
@@ -65,4 +65,6 @@ Just follow these simple steps in order to enable Image Maker to your app:
 | onGenerate   | Invoked on click button to generate image   | Integer  | data = {  amm_canvas: file base64, all_texts:Array, drwaIsEmpty: Integer, imagesIsEmpty:Integer} And formData contains all serialized data mentioned before ready to send to server |
 | alterFontFamilies   | Invoked before show all font families options used for resizable text  | function(All_FontFamilies){}    | All_FontFamilies |
 | alterTextInfo   |Allows to alter default text options   | function(text_info){}  | text_info = {toUpperCase: true,  shadowColor:'black', shadowBlur:3, textColor: '#ffffff', textAlign: 'center', strokeColor:'#000000', lineWidth:3, fontStyle: "normal", fontVariant:"normal", fontWeight:"bold", fontFamily:"impact", fontSize: 50,inputFontSize:50} |
+
+
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
