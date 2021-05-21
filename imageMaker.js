@@ -434,44 +434,9 @@ $(this).each(function (delta) {
     
     }
   }
-    
-    
-    
-//   MemeGenerator.dialog = {
-//     ratioWidth : 0.9 ,
-//     ratioHeight : 0.8,
-//     destroyPopup : ['.view-images-memes-ar-amm'],
-//     option : function() {
-//         return {
-//             position: { my: "center", at: "center", of: window },
-//             modal: true,
-//            // height:$(window).height()*this.ratioHeight,
-//             width: MemeGenerator.is_responsive()?$(window).width()*this.ratioWidth: 'auto', //sets the initial size of the dialog box 
-//             resizable: false,
-//             draggable:false
-//            }
-//       }
-// };    
-    
-
- 
 
 
-
-    window.onload = function() {
-       
-
-    //    $(window).resize(function(event) {
-    //     var width_preview = container.find('.wrapper-memes-preview').width();
-    //     canvas_info._maxWidth = width_preview ? width_preview : canvas_info._maxWidth;
-    //     container.trigger({type: "CanvasPreChange", value:canvas_info.img, on: 'selectImage'});
-    //     MemeGeneratorAPI.canvas_reset(canvas_info.img);
-    //     MemeGeneratorAPI.drawBrushesPoints();
-    //     MemeGeneratorAPI.canvas_addimage(null, null);
-    //     MemeGeneratorAPI.canvas_filltext(null, null);
-    //     container.trigger({type: "CanvasPostChange", value:canvas_info.img, on: 'selectImage'});
-    //    });
-    };
+    window.onload = function() {};
 
 
     function initialize(){
@@ -739,8 +704,6 @@ container.on( "keyup", ".wrapper-text .amm-text", function(event){
         
        
 /*Add image*/ 
-//        var addImage = document.getElementById('amm-addImage');
-//        addImage.addEventListener('change', addImageHandler);
 
 function amm_add_image(event){
 
@@ -934,22 +897,7 @@ container.trigger({type: "CanvasPreChange", value:Original_image, on: 'selectIma
         };
  })
 
-/*If exist new memes in progress, 
- * remove related memes for the previous before append them in html*/
-//   jQuery(document).ajaxComplete(function (event, xhr, settings) {
-// //      console.log(settings);
-//             if ($.isFunction(settings.data.indexOf) && settings.data.indexOf("view_name=memes") != -1) {
-//           console.log([$(".SI_amm_selected").attr("tid"),$(".view-id-memes.view-display-id-block_1 .form-text[id^='edit-tid-raw']").attr("id"), $(".view-id-memes.view-display-id-block_1 [id^='edit-tid-raw']").val()]);    
-//           if ($(".SI_amm_selected").attr("tid") != $(".view-id-memes.view-display-id-block_1 .form-text[id^='edit-tid-raw']").val()) {
-                   
-//               $(".view-id-memes.view-display-id-block_1 .view-content table").remove();
-//                }
-//             }
-//         });
-        
-/*Upload meme image*/
-// var imageLoader = document.getElementById('imageLoader');
-//     imageLoader.addEventListener('change', handleImage, false);
+ /*Upload meme image*/
 container.find('#amm-input-upload-image-meme-responsive').change(function(e) {
   
             var reader = new FileReader();
@@ -1025,50 +973,6 @@ container.on( "click", ".wrapper_canvas_background", function(event){
      MemeGenerator.focusout();
 });
 
-// container.on( "click", ".wrapper-memes-main .amm-popup-trigger", function(event){ 
- 
-//   var delta = $(this).closest('.wrapper-text').attr('delta');
-  
-//                  texts["text"+delta].elementChanged = $(this);
-               
-//                  texts["text"+delta].elementChanged = null;
-  
-//    });
-  
-   
-// container.on('click', '#colorSelector, #colorSelectorBrushes', function(){
- 
-
-//      if(this.id == "colorSelector"){
-//      var element = $(".wrapper-text .picker.opened"); 
-//      if(element){
-//       var delta = element.closest('.wrapper-text').attr('delta'); 
-//       $('.wrapper-memes-operations .colorpicker').toggle();
-//       if($('.wrapper-memes-operations .colorpicker').is(":visible")){
-//       texts["text"+delta].elementChanged = element; 
-//       MemeGeneratorAPI.popupcolor(texts["text"+delta]);
-//       texts["text"+delta].elementChanged = null;
-//   }
-//     }
-//      }
-//      else{
-//     //    $('.wrapper-memes-preview .colorpicker').toggle();
-// //           if($('.wrapper-memes-preview .colorpicker').is(":visible")){
-//         //   MemeGeneratorAPI.popupcolorbrushes();
-      
-// //   }
-//      }
-// });
-
-// container.on('click','.colorBox', function(){
-   
-//      var rgb = $(this).css('background-color'); 
-//      MemeGeneratorAPI.setColorpicker(rgb);
-//      MemeGeneratorAPI.triggerEventOnChangeColor(
-//                              MemeGeneratorAPI.rgb2hex(rgb)
-//                               );
- 
-// }); 
 
 container.on('click', '.moreOption', function(event){ 
     
@@ -1517,36 +1421,19 @@ MemeGeneratorAPI.wrapText = function(context, text, x, y, maxWidth, maxHeight, t
 };
 MemeGeneratorAPI.drawBrushesPoints = function(){
     var canvas_info = MemeGenerator.get_canvas_info();
-// console.log("");
+
     var lastPoint = null;
     var brushesPoints = MemeGenerator.get_brushesPoints();
-    // console.log(canvas_info);
-    // var ratio = canvas_info.final_width/container.find(selectors.ammCanvas).width();
-    // var ratioHeight = canvas_info.final_height/container.find(selectors.ammCanvas).height();
-    // var ratio = null;
-    // if (ratioWidth > ratioHeight)
-    //  ratio= ratioWidth;
-    // else
-    //  ratio = ratioHeight;
-
-    // images["imageBoxDR"+event.value.delta].ratioTop = event.value.ui.position.top/container.find(selectors.ammCanvas).height();   
-    // images["imageBoxDR"+event.value.delta].ratioLeft = event.value.ui.position.left/container.find(selectors.ammCanvas).width();
+   
      $.each(brushesPoints, function(index, point) {
     
 
      if (point == undefined || point == null){
              lastPoint = point;
-     }else{
-       
-        //  point.x*=ratioWidth;
-        //  point.y*=ratioHeight;
-        //   point.x = point.x * (container.find(selectors.ammCanvas).width()/canvas_info.final_width);
-        //   point.y = point.y*(container.find(selectors.ammCanvas).height()/canvas_info.final_height);
      }
     
     if (lastPoint !== undefined && lastPoint !== null) {
-        // console.log(container.find(selectors.ammCanvas).width(), canvas_info.final_width, canvas_info.final_width-container.find(selectors.ammCanvas).width());
-   
+
         canvas_info.ctx.beginPath();
         canvas_info.ctx.moveTo(lastPoint.x, lastPoint.y);
         canvas_info.ctx.lineTo(point.x, point.y);
@@ -1663,14 +1550,11 @@ MemeGeneratorAPI.canvas_filltext = function(ui, current_box_id) {
         /*Revert postion top*/
         //@TODO: Should re-position and re-Size each box to fit each image-meme
         if(canvas_info.final_height < position.top+_this.outerHeight()){
-//                console.log([canvas_info.final_height, position.top+_this.outerHeight()])
         position.top = canvas_info.final_height - _this.outerHeight();
         texts[id].top = position.top; 
-//            console.log(position.top);
-//            $("#" + text_object.id_box).css("top", position.top+"px" );
+
     }
-//            position.top = ui.position.top = canvas_info.final_height;
-        /**/
+ 
         var maxWidth = _this.outerWidth(); 
         var maxHeight = _this.outerHeight(); 
         var oldMaxWidth = maxWidth; 
@@ -1678,9 +1562,7 @@ MemeGeneratorAPI.canvas_filltext = function(ui, current_box_id) {
      
         if(current_box_id == text_object.id_box)
              {   position = ui.position; 
-//                     
-//                     oldMaxWidth = (ui.originalSize)? ui.originalSize.width:oldMaxWidth;
-//                     oldMaxHeight = (ui.originalSize)? ui.originalSize.height:oldMaxHeight;
+ 
                  /*On event resizable*/
                  maxWidth = (ui.size)? ui.size.width:maxWidth;
                  maxHeight = (ui.size)? ui.size.height:maxHeight;
@@ -1688,9 +1570,7 @@ MemeGeneratorAPI.canvas_filltext = function(ui, current_box_id) {
                  /*End*/
              }
                 
-//                 console.log(["First", maxWidth , oldMaxWidth, maxWidth > oldMaxWidth , maxHeight > oldMaxHeight, (text_object.event && text_object.event.which == 8) ]);
-//          if(maxWidth > oldMaxWidth || maxHeight > oldMaxHeight || (text_object.event && text_object.event.which == 8))
-//                         increaseText = true;
+ 
 //        http://www.w3schools.com/tags/canvas_font.asp
 
          canvas_info.ctx.font = MemeGeneratorAPI.buildFont(text_object);
@@ -1765,11 +1645,6 @@ for (j = 0; j < numbers.length; j += 1) {
 return result;
 };
 /*End Meme generator API*/
-
-
-
-
-
 
 
 
