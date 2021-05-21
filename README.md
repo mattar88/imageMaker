@@ -5,7 +5,9 @@
 
 ## Demo & Examples
 ### [Clothes & T-Shirt maker](https://mattar88.github.io/imageMaker/demo#clothe-tshirt-maker)
-### [Clothes & T-Shirt maker](https://mattar88.github.io/imageMaker/demo#clothe-tshirt-maker)
+### [Meme Generator](https://mattar88.github.io/imageMaker/demo#memegenerator)
+### [Birthday Cards](https://mattar88.github.io/imageMaker/demo#birthday-cards)
+### [Image Maker](https://mattar88.github.io/imageMaker/demo#image-maker)
 
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
