@@ -1,7 +1,7 @@
 # jQuery Image Maker
 ## Image maker
 
-> **JQuery image maker is a response plugin that enable you to add a custom resizable texts to image in addition to merge image and Draw on mobile and desktop. It based on HTML5 canvas. **
+> **JQuery Image Maker plugin is a response plugin that enable you to add a custom resizable texts to image in addition to merge images and Draw. It based on HTML5 canvas. **
 
 ## Demo & Examples
 
