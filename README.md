@@ -57,12 +57,12 @@ Just follow these simple steps in order to enable Image Maker to your app:
 | i18n   | Allows you to alter all texts appears And therefore you can translate them  | json  | {fontFamilyText: 'Font Family', enterTextText:'Enter Text', topText:'Top Text',bottomText: 'Bottom Text', sizeText:'Size', uperCaseText:'UperCase', mergeImageText: 'Merge Image', drawText:'Draw', addTextBoxText:'Add TextBox', previewText:'Preview', addTemplateText:'add template', resetText: 'Reset', imageGeneratorText: 'Image maker',stopBrushingText:'Stop Brushing', canvasLoadingText: 'Canvas Loading'}|
               
  ## Hooks and Events
- | Event name | Description | Format | Parameters |
+ | Event name | Description | function | Parameters |
 | :---         |     :---      |     :---: |  :---: |
-| preRender   | You can alter every HTML elements appears using this function, note you are required to return the altered HTML  | function(html){return html;},  |html: html elements |
-| template_thumbnail_width     | Width of predefined template       |   integer   | 50 |
-| template_thumbnail_height     | Height of predefined template       |   integer   | 50 |
-| merge_images   | You can predefine images to merge with the template. It's array of object that contains url and title of predefined merges Images   | [{url:'','title':''}]    | []|
-| merge_image_thumbnail_width   | Width of predefined merge image   | Integer  | 'auto' |
+| preRender   | Invoked before render html, you can alter every HTML elements appears using this function, note you are required to return the altered HTML  | function(html){return html;},  |html: html elements |
+| onInitialize     | Invoked before attached events, allows you to alter options      |   function(canvas_info){}   | canvas_info refer to Options |
+| onLoad     | Invoked after everything loaded      |   function(canvas_info){}   | canvas_info refer to Options |
+| alterFontFamilies   | Invoked before show all font families options used for resizable text  | function(All_FontFamilies){}    | All_FontFamilies|
+| alterTextInfo   |Allows to alter default text options   | function(text_info){}  | {toUpperCase: true, } |
 | merge_image_thumbnail_height   | Height of predefined merge image   | Integer  | 50 |
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
