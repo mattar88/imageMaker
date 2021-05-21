@@ -55,6 +55,22 @@ It's array of object that contains url and title of predefined merges Images   |
 | merge_image_thumbnail_width   | Width of predefined merge image   | Integer  | 'auto' |
 | merge_image_thumbnail_height   | Height of predefined merge image   | Integer  | 50 |
 | downloadGeneratedImage   | Maybe you need to send generated image to backend using ajax(or other technology) instead of download it so you have the ability to disabled download image by set this variable false and user the function onGenerate()  | bool  | true |
-| i18n   | Allows you to alter all texts appears And therefore you can translate them  | bool  | true |
+| i18n   | Allows you to alter all texts appears And therefore you can translate them  | json  | {fontFamilyText: 'Font Family',
+             enterTextText:'Enter Text',
+             topText:'Top Text',
+             bottomText: 'Bottom Text',
+             sizeText:'Size',
+             uperCaseText:'UperCase',
+             mergeImageText: 'Merge Image',
+             drawText:'Draw',
+             addTextBoxText:'Add TextBox',
+             previewText:'Preview',
+             uploadMemeText:'Upload meme',
+             resetText: 'Reset',
+             memeGeneratorText: 'Image maker',
+             stopBrushingText:'Stop Brushing',
+             canvasLoadingText: 'Canvas Loading'
+              } |
+              
 
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
