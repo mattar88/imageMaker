@@ -4,8 +4,8 @@
 > **JQuery Image Maker responsive plugin enable you to add a custom resizable texts to image in addition to merge images and Draw. It based on HTML5 canvas. **
 
 ## Demo & Examples
-* [https://mattar88.github.io/imageMaker/demo](Clothes & T-Shirt maker)
-* [Demo](https://mattar88.github.io/imageMaker/demo)
+###[Clothes & T-Shirt maker](https://mattar88.github.io/imageMaker/demo#clothe-tshirt-maker)
+###[Clothes & T-Shirt maker](https://mattar88.github.io/imageMaker/demo#clothe-tshirt-maker)
 
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
