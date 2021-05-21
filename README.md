@@ -7,6 +7,11 @@
 
 [https://www.tolastbit.com/apps/meme-generator](https://www.tolastbit.com/apps/meme-generator)
 
+## Features:
+ *  Responsive works on Desktop, tablet, mobile
+ *  Translatable
+ *  Have many operations: Resizable and draggable texts, merge image, upload template, predefined merge images and templates, Draw
+ *  
 ## Dependent libraries:
  *  jquery
  *  jquery.ui
