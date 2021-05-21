@@ -62,10 +62,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
 | preRender   | Invoked before render html, you can alter every HTML elements appears using this function, note you are required to return the altered HTML  | function(html){return html;},  |html |
 | onInitialize     | Invoked before attached events, allows you to alter options      |   function(canvas_info){}   | canvas_info refer to Options |
 | onLoad     | Invoked after everything loaded      |   function(canvas_info){}   | canvas_info refer to Options |
-| onGenerate   | Invoked on click button to generate image   | Integer  | data = {       'amm_canvas': base64,
-            "all_texts":Array,
-            'drwaIsEmpty': Integer,
-            'imagesIsEmpty':Integer}  |
+| onGenerate   | Invoked on click button to generate image   | Integer  | data = {  amm_canvas: file base64, all_texts:Array, drwaIsEmpty: Integer, imagesIsEmpty:Integer} And formData contains all serialized data mentioned before ready to send to server |
 | alterFontFamilies   | Invoked before show all font families options used for resizable text  | function(All_FontFamilies){}    | All_FontFamilies |
 | alterTextInfo   |Allows to alter default text options   | function(text_info){}  | text_info = {toUpperCase: true,  shadowColor:'black', shadowBlur:3, textColor: '#ffffff', textAlign: 'center', strokeColor:'#000000', lineWidth:3, fontStyle: "normal", fontVariant:"normal", fontWeight:"bold", fontFamily:"impact", fontSize: 50,inputFontSize:50} |
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
