@@ -33,7 +33,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
     <link rel="stylesheet" href="imageMake.css">
     ```
 
-3. Add in the body of page html the main element of Image Maker.
+3. Add in the body of the page html the main element of Image Maker.
 
     ```html
     <div id="imageMaker1"></div>
