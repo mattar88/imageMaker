@@ -66,5 +66,47 @@ Just follow these simple steps in order to enable Image Maker to your app:
 | alterFontFamilies   | Invoked before show all font families options used for resizable text  | function(All_FontFamilies){}    | All_FontFamilies |
 | alterTextInfo   |Allows to alter default text options   | function(text_info){}  | text_info = {toUpperCase: true,  shadowColor:'black', shadowBlur:3, textColor: '#ffffff', textAlign: 'center', strokeColor:'#000000', lineWidth:3, fontStyle: "normal", fontVariant:"normal", fontWeight:"bold", fontFamily:"impact", fontSize: 50,inputFontSize:50} |
 
+## Example 
+````js
+ $('#canvas-memes-2').imageMaker({
+         merge_images:[{url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/just_do_it.png', title:'Just Do it'},
+                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/starbucks.png', title:'Starbucks'},
+                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/kiss.png', title:'Kiss'},
+                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/donkey.png', title:'Donkey 1'},
+                    {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/donkey2.png', title:'Donkey 2'},
+          ],
+         templates:[
+          {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/t-shirt-white.png', title:'T-shirt White'},
+         {url: 'https://tolastbit.com/apps/sites/all/modules/custom/meme_generator/assets/design/t-shirt-black.png', title:'T-shirt black'},
+        ],
+         merge_image_thumbnail_width:'auto',
+        merge_image_thumbnail__height:50,
+        template_thumbnail_width:50,
+        template_thumbnail_height:50,
+        i18n:{fontFamilyText: 'Font Family',
+                enterTextText:'Enter Text',
+                topText:'Top Text',
+                bottomText: 'Bottom Text',
+                sizeText:'Size',
+                uperCaseText:'UperCase',
+                addTemplateText:'Add template'
+         },
+         downloadGeneratedImage:true,
+         onGenerate: function(data, formData){          
+                $.ajax({
+                type: "POST",
+                url: "YOURCALLBACK",
+                data: formDataMemeGeneratorData,
+                success: function (data) {},
+                complete: function() {}})
+                },
+         preRender:function(html){ html+="<div>this is my alter</div>"; return html;},
+         onInitialize:function(canvas_info){},
+         onLoad:function(canvas_info){console.log('onLoad');},
+         alterTextInfo:function(text_info){},
+         alterFontFamilies:function(All_FontFamilies){  All_FontFamilies.push('Roboto'); },
+       });
+````
+
 
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
