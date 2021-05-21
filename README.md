@@ -11,6 +11,7 @@
 
 ## Screenshots
 ![Birthday Cards](screenshots/birthday-cards.jpeg?raw=true "Birthday Cards")
+![Clothes & T-Shirt maker](screenshots/clothe-tshirt-maker.jpeg?raw=true "Clothes & T-Shirt maker")
 
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
