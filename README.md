@@ -10,7 +10,7 @@
 ### [Image Maker](https://mattar88.github.io/imageMaker/demo#image-maker)
 
 ## Screenshots
-![Birthday Cards](screenshots/birthday-cards.jpg?raw=true "Birthday Cards")
+![Birthday Cards](screenshots/birthday-cards.jpeg?raw=true "Birthday Cards")
 
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
