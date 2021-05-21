@@ -12,7 +12,7 @@
  *  Unlimited imageMaker in the same page, you can define more than one Image maker in the same page.
  *  Translatable
  *  Have many operations: Resizable and draggable texts, merge image, upload template, predefined merge images and templates, Draw
- *  You can used as Clothes and T-shirt design maker(add logo or Icon or emotions to your cloth), Meme generator. 
+ *  We can used as Clothes or T-shirt design maker(add logo or Icon or emotions to your cloth), Meme generator. 
  
 ## Dependent libraries:
  *  jquery
