@@ -57,8 +57,9 @@ Just follow these simple steps in order to enable Image Maker to your app:
     ```js
     $('#imageMaker1').imageMaker()
     ```    
- # Settings
- ## Options
+# Settings
+## Options
+
 | Option name | Description | Type | Default |
 | :---         |     :---      |     :---: |  :---: |
 | templates   | You can predefine images that used as template.It's array of object that contains url and title of predefined templated   | [{url:'','title':''},]    |[] |
@@ -71,7 +72,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
 | text_boxes_count | The count of textboxes that should add by default  | Integer  | 2 |
 | i18n   | Allows you to alter all texts appears And therefore you can translate them  | json  | {fontFamilyText: 'Font Family', enterTextText:'Enter Text', topText:'Top Text',bottomText: 'Bottom Text', sizeText:'Size', uperCaseText:'UperCase', mergeImageText: 'Merge Image', drawText:'Draw', addTextBoxText:'Add TextBox', previewText:'Preview', addTemplateText:'add template', resetText: 'Reset', imageGeneratorText: 'Image maker',stopBrushingText:'Stop Brushing', canvasLoadingText: 'Canvas Loading'}|
               
- ## Hooks and Events
+## Hooks and Events
  | Event name | Description | function | Parameters |
 | :---         |     :---      |     :---: |  :---: |
 | preRender   | Invoked before render html, you can alter every HTML elements appears using this function, note you are required to return the altered HTML  | function(html){return html;},  |html |
