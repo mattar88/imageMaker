@@ -10,6 +10,7 @@
 ### [Image Maker](https://mattar88.github.io/imageMaker/demo#image-maker)
 
 ## Screenshots
+
 | Birthday Cards  | Clothes & T-Shirt maker |
 | :------------ | :------------- |
 | <img src="screenshots/birthday-cards.jpeg" width="250"> | <img src="screenshots/clothe-tshirt-maker.jpeg" width="250"> |
