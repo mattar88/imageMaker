@@ -10,22 +10,6 @@
 ### [Image Maker](https://mattar88.github.io/imageMaker/demo#image-maker)
 
 ## Screenshots
-
-<table>
-<thead>
-<tr>
-<th align="left">Birthday Cards</th>
-<th align="left">Clothes &amp; T-Shirt maker</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><a target="_blank" rel="noopener noreferrer" href="/mattar88/imageMaker/blob/main/screenshots/birthday-cards.jpeg"><img src="/mattar88/imageMaker/raw/main/screenshots/birthday-cards.jpeg" width="250" style="max-width:100%;"></a></td>
-<td align="left"><a target="_blank" rel="noopener noreferrer" href="/mattar88/imageMaker/blob/main/screenshots/clothe-tshirt-maker.jpeg"><img src="/mattar88/imageMaker/raw/main/screenshots/clothe-tshirt-maker.jpeg" width="250" style="max-width:100%;"></a></td>
-</tr>
-</tbody>
-</table>
-
 | Birthday Cards  | Clothes & T-Shirt maker |
 | :------------ | :------------- |
 | <img src="screenshots/birthday-cards.jpeg" width="250"> | <img src="screenshots/clothe-tshirt-maker.jpeg" width="250"> |
@@ -36,7 +20,7 @@
  *  Translatable
  *  Have many operations: Resizable and draggable texts, merge image, upload template, predefined merge images and templates, Draw
  *  We can used as Clothes or T-shirt design maker(add logo or Icon or emotions to your cloth), Meme generator, Birthday Cards maker. 
- 
+
 ## Dependent libraries:
  *  jquery
  *  jquery.ui
@@ -89,7 +73,8 @@ Just follow these simple steps in order to enable Image Maker to your app:
 | i18n   | Allows you to alter all texts appears And therefore you can translate them  | json  | {fontFamilyText: 'Font Family', enterTextText:'Enter Text', topText:'Top Text',bottomText: 'Bottom Text', sizeText:'Size', uperCaseText:'UperCase', mergeImageText: 'Merge Image', drawText:'Draw', addTextBoxText:'Add TextBox', previewText:'Preview', addTemplateText:'add template', resetText: 'Reset', imageGeneratorText: 'Image maker',stopBrushingText:'Stop Brushing', canvasLoadingText: 'Canvas Loading'}|
               
 ## Hooks and Events
- | Event name | Description | function | Parameters |
+
+| Event name | Description | function | Parameters |
 | :---         |     :---      |     :---: |  :---: |
 | preRender   | Invoked before render html, you can alter every HTML elements appears using this function, note you are required to return the altered HTML  | function(html){return html;},  |html |
 | onInitialize     | Invoked before attached events, allows you to alter options      |   function(canvas_info){}   | canvas_info refer to Options |
