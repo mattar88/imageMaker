@@ -9,6 +9,9 @@
 ### [Birthday Cards](https://mattar88.github.io/imageMaker/demo#birthday-cards)
 ### [Image Maker](https://mattar88.github.io/imageMaker/demo#image-maker)
 
+## Screenshots
+![Birthday Cards](screenshots/birthday-cards.jpg?raw=true "Birthday Cards")
+
 ## Features:
  *  Responsive works on Desktop, tablet, mobile
  *  Unlimited imageMaker in the same page, you can define more than one Image maker in the same page.
