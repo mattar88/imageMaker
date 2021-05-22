@@ -36,7 +36,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
 1. Include jQuery and jQuery UI and jQuery UI Touch Punch on your page.
 
     ```html
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
     ```
