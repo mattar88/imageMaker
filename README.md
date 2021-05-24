@@ -3,9 +3,11 @@
 
 > **JQuery Image Maker responsive plugin enable you to add a custom resizable texts to image in addition to merge images and Draw. It based on HTML5 canvas. **
 
-## Examples
-### [Convert Number to words](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_en_number)
-### [تفقيط أو تحويل الرقم الى كلمات](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_ar_number)
+## Demo & Examples
+### [Clothes & T-Shirt maker](https://mattar88.github.io/imageMaker/demo#clothe-tshirt-maker)
+### [Meme Generator](https://mattar88.github.io/imageMaker/demo#memegenerator)
+### [Birthday Cards](https://mattar88.github.io/imageMaker/demo#birthday-cards)
+### [Image Maker](https://mattar88.github.io/imageMaker/demo#image-maker)
 
 ## Screenshots
 
