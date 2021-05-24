@@ -42,7 +42,7 @@ Just follow these simple steps in order to enable Image Maker to your app:
     ```
     Note: You can skip the include of jqueryui-touch-punch plugin for desktop use only
     
-2. Download imageMaker then add imageMaker.js and imageMaker.css.
+2. Download imageMaker then add imageMaker.min.js and imageMaker.min.css.
 
     ```html
     <link rel="stylesheet" type="text/css" href="imageMake.min.css">
