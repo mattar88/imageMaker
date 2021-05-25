@@ -44,6 +44,10 @@
         ], text_boxes_count:1});
 
         $('#image-maker').imageMaker();
+       //The following code is for animate scrolling when open the page
+       jQuery([document.documentElement, document.body]).animate({
+        scrollTop: jQuery("#"+jQuery(":target").attr('id')).offset().top
+    }, 1000);
     });
   </script>
 </head>
