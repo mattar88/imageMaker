@@ -128,3 +128,6 @@ Just follow these simple steps in order to enable Image Maker to your app:
 
 
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
+
+<h4>This module is sponsored <a href="https://www.tolastbit.com/" rel="nofollow">To Last Bit</a>.</h4>
+ <img src="https://www.tolastbit.com/sites/default/files/smal%20logo%20with%20text%20with%20bg%20t%20green.png" alt="To last bit"> 
