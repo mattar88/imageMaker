@@ -129,6 +129,6 @@ Just follow these simple steps in order to enable Image Maker to your app:
 
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
 
-<h4>This module is sponsored <a href="https://www.tolastbit.com/" rel="nofollow">To Last Bit</a>.</h4>
+<h4>This plugin is sponsored by <a href="https://www.tolastbit.com/" rel="nofollow">To Last Bit</a>.</h4>
 <img title="to last bit" alt="To Last Bit" src="https://www.drupal.org/files/styles/grid-3/public/slogan%20black%20bg%20white.png">
 
